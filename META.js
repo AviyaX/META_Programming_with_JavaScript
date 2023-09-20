@@ -57,60 +57,79 @@
 // console.log("Is", num1, "an even number?", result1);
 // console.log("Is", num2, "an even number?", result2);
 
-// task - Are you old enough?
-var age = 10;
-if (age >= 65) {
-   console.log('You get your income from your pension')
-} else if (age < 65 && age >= 18) {
-   console.log('Each month you get a salary')
-} else if (age < 18) {
-   console.log('You get an allowance')
-} else {
-   //this block will run if no condition matches
-   console.log('The value of the age variable is not numerical')
-}
+// // task - Are you old enough?
+// var age = 10;
+// if (age >= 65) {
+//    console.log('You get your income from your pension')
+// } else if (age < 65 && age >= 18) {
+//    console.log('Each month you get a salary')
+// } else if (age < 18) {
+//    console.log('You get an allowance')
+// } else {
+//    //this block will run if no condition matches
+//    console.log('The value of the age variable is not numerical')
+// }
 
-// Days of the Week program
-var day = `Sunday`;
-switch(day) {
-   case 'Monday':
-       console.log('Read a book');
-       break;
-   case 'Tuesday':
-       console.log('Watch a movie');
-       break;
-   case 'Wednesday':
-       console.log('Read a book');
-       break;
-   case 'Thursday':
-       console.log('Play basketball');
-       break;
-   case 'Friday':
-       console.log('Socialize');
-       break;
-   case 'Saturday':
-       console.log('Chill');
-       break;
-   case 'Sunday':
-       console.log('Have barbecue');
-       break;
-   default:
-       //this block will run if no condition matches
-       console.log('There is no such day');
-}
+// // Days of the Week program
+// var day = `Sunday`;
+// switch(day) {
+//    case 'Monday':
+//        console.log('Read a book');
+//        break;
+//    case 'Tuesday':
+//        console.log('Watch a movie');
+//        break;
+//    case 'Wednesday':
+//        console.log('Read a book');
+//        break;
+//    case 'Thursday':
+//        console.log('Play basketball');
+//        break;
+//    case 'Friday':
+//        console.log('Socialize');
+//        break;
+//    case 'Saturday':
+//        console.log('Chill');
+//        break;
+//    case 'Sunday':
+//        console.log('Have barbecue');
+//        break;
+//    default:
+//        //this block will run if no condition matches
+//        console.log('There is no such day');
+// }
 
-// Working with conditionals and loops - IF else 
+// // Working with conditionals and loops - IF else 
+// for (var i = 1; i <= 10; i++) {
+//     if(i == 1) {
+//         console.log("Gold medal")
+//     } else if (i == 2) {
+//         console.log("Silver medal")
+//     } else if (i == 3) {
+//         console.log("Bronze medal")
+//     } else {
+//         //this block will run if no condition matches
+//         console.log(i)
+//     }
+// }
+
+// Working with conditionals and loops - Switch Case
 for (var i = 1; i <= 10; i++) {
-    if(i == 1) {
-        console.log("Gold medal")
-    } else if (i == 2) {
-        console.log("Silver medal")
-    } else if (i == 3) {
-        console.log("Bronze medal")
-    } else {
-        //this block will run if no condition matches
-        console.log(i)
+    switch(i) {
+        case 1:
+            console.log("Gold medal")
+            break
+        case 2:
+            console.log("Silver medal")
+            break
+        case 3:
+            console.log("Bronze medal")
+            break
+        default:
+            //this block will run if no condition matches
+            console.log(i)
     }
 }
+
 
 
